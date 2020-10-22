@@ -1,3 +1,5 @@
+package org.example;
+
 import io.ebean.DB;
 import io.ebean.DatabaseFactory;
 import io.ebean.config.DatabaseConfig;

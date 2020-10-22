@@ -1,4 +1,4 @@
-Test project to showcase what seems to be an ebean bug.
+<h1>Test project to showcase what seems to be an ebean bug.</h1>
 Ebean does not respect schema in connections to PostgresSQL.<br>
 Tested on PostgreSQL 12.<br>
 User: test_user.<br>

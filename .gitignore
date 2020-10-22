@@ -3,8 +3,6 @@ HELP.md
 .mvn
 .gradle
 
-logback.xml
-
 ### STS ###
 .apt_generated
 .classpath
