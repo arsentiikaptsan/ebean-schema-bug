@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+  id 'io.ebean' version '12.5.1'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation 'io.ebean:ebean:12.5.1'
+    implementation 'org.postgresql:postgresql:42.2.18'
+    runtimeOnly 'ch.qos.logback:logback-classic:1.2.3'
+}

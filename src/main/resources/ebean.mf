@@ -1,0 +1,5 @@
+entity-packages: org.example.entity
+transactional-packages: org.example
+querybean-packages: org.example
+profile-location: true
+

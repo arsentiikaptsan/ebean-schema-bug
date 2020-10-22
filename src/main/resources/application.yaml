@@ -1,0 +1,14 @@
+ebean:
+  # this properties controls schema for ddl operations, but I experimented with it either with no success
+  dbSchema: test_schema  # use this schema rather than public
+  migration:
+    run: false
+
+datasource:
+  db:
+    username: test_user
+    password: 12345678
+    # with currentSchema parameter ebean can find test_table
+    url: jdbc:postgresql://localhost:5432/test_db #?currentSchema=test_schema
+    driver: org.postgresql.Driver
+    schema: test_schema
